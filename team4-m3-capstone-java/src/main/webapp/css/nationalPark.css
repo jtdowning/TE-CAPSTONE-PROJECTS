@@ -1,0 +1,133 @@
+
+.parkImage {
+	width: 500px;
+}
+
+nav {
+	font-family: 'Arvo', serif;
+	padding-bottom: 20px;
+}
+
+body {
+	font-family: 'Arvo', serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #a6a6a6;
+}
+
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.park {
+	display: inline-block;
+	width: 100%;
+}
+
+.park-info {
+	padding: 20px;
+}
+
+.park-image {
+	width: 33%;
+	display: inline-block;
+}
+
+.park-image img {
+	width: 100%;
+}
+
+.park-details {
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 40px;
+}
+
+table th, td {
+	text-align: left;
+	vertical-align: top;
+	border-bottom: 1px solid #ddd;
+	padding: 5px;
+}
+
+tr: nth-child(even) {background-color:#f2f2f2};
+
+th {
+	font-weight: bold;
+	width: 20%;
+}
+
+.forecast {
+	display: block;
+	vertical-align: middle;
+	padding: 5px;
+	margin: 5px;
+}
+
+.today-forecast {
+	display: inline-block;
+	width: 30%;
+}
+
+.today-forecast img {
+	width: 80%;
+}
+
+.daily-forecast {
+	display: inline-block;
+	width: 16.5%;
+	vertical-align: top;
+}
+
+.daily-forecast img {
+	width:80%;
+	display: block;
+}
+
+.forecast b {
+	font-size: .8em;
+}
+
+.survey-result div {
+	width:25%;
+	display:inline-block;
+	padding-left:20px;
+	padding-right: 20px;
+	vertical-align: top;
+}
+
+.survey-result img {
+	width: 100%; 
+}
+
+.survey-result p {
+	text-align: top;
+	font-weight: bold;
+	vertical-align: text-top;
+}
+
+#date {
+	font-weight: bold;
+	font-size: 1.3em;
+}
+
+
